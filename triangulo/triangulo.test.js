@@ -4,6 +4,7 @@ it ('triangulo valido',() =>{
     expect(isTriangulo(3,3,3)).toBe(true)
     expect(isTriangulo(1,2,3)).toBe(false)
     expect(isTriangulo(1,2)).toBe(false)
+    expect(isTriangulo('n',1,2)).toBe(false)
 })
 
 it ('Equilatero',() =>{
